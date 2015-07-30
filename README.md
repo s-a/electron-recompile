@@ -8,7 +8,9 @@ $ npm install -g https://github.com/s-a/electron-recompile.git;
 ## Usage
 ```bash
 # Example:
-$ electron-recompile c:\git\test -a ia32 -e 0.30.0;
+$ cd your-project-path;
+$ npm install electron-prebuilt;
+$ electron-recompile;
 
 
 
