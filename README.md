@@ -2,7 +2,7 @@
 
 ## Installation
 ```bash
-$ npm install -g https://github.com/s-a/electron-recompile.git;
+$ npm install -g electron-recompile;
 ```
 
 ## Usage
