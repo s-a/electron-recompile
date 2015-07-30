@@ -7,14 +7,7 @@ $ npm install -g electron-recompile;
 
 ## Usage
 ```bash
-# Example:
-$ cd your-project-path;
-$ npm install electron-prebuilt;
-$ electron-recompile;
-
-
-
-Usage: index [folder] [options]
+index [folder] [options]
 
 Options:
 
@@ -23,4 +16,12 @@ Options:
   -a, --arch [value]      processor architecture
   -e, --electron [value]  electron version
 
+```
+
+## Example
+Recompiled native modules to ```your-project-path/electron-recompiled```
+```bash
+$ cd your-project-path;
+$ npm install electron-prebuilt;
+$ electron-recompile;
 ```
