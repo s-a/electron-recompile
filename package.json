@@ -1,14 +1,23 @@
 {
   "name": "electron-recompile",
   "version": "1.0.0",
-  "description": "",
+  "description": "re-compile native modules against electron",
   "main": "./lib/index.js",
   "bin": {
     "electron-recompile": "./lib/index.js"
   },
+  "preferGlobal": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "bump": "npm version patch && git push && git push --tags && npm publish"
+  },
+  "bugs": {
+    "url": "https://github.com/s-a/electron-recompile/issues"
+  },
+  "homepage": "https://github.com/s-a/electron-recompile",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/s-a/electron-recompile.git"
   },
   "author": "Stephan Ahlf <stephan.ahlf@gmail.com> (https://github.com/s-a)",
   "license": "MIT",
