@@ -19,13 +19,22 @@
     "type": "git",
     "url": "git+https://github.com/s-a/electron-recompile.git"
   },
-  "author": "Stephan Ahlf <stephan.ahlf@gmail.com> (https://github.com/s-a)",
+  "author": {
+    "name": "Stephan Ahlf",
+    "email": "stephan.ahlf@gmail.com",
+    "url": "https://github.com/s-a"
+  },
   "license": "MIT",
   "dependencies": {
     "colors": "^1.1.2",
     "commander": "^2.8.1",
     "nmp": "^1.0.3",
-    "package.js": "^1.1.3",
-    "shelljs": "^0.5.1"
-  }
+    "package.js": "^1.1.3"
+  },
+  "readme": "# electron-recompile\r\n\r\n## Installation\r\n```bash\r\n$ npm install -g electron-recompile;\r\n```\r\n\r\n## Usage\r\n```bash\r\nindex [folder] [options]\r\n\r\nOptions:\r\n\r\n  -h, --help              output usage information\r\n  -V, --version           output the version number\r\n  -a, --arch [value]      processor architecture\r\n  -e, --electron [value]  electron version\r\n\r\n```\r\n\r\n## Example\r\nRecompiled native modules to ```your-project-path/electron-recompiled```\r\n```bash\r\n$ cd your-project-path;\r\n$ npm install electron-prebuilt;\r\n$ electron-recompile;\r\n```\r\n",
+  "readmeFilename": "README.md",
+  "gitHead": "43fec0b22c441a6bb19eec9b41b99cd00d94b19d",
+  "_id": "electron-recompile@1.0.4",
+  "_shasum": "654cfb69a1cb10351902b9e39a3fd0e09392b3cd",
+  "_from": "electron-recompile@>=1.0.4 <2.0.0"
 }
