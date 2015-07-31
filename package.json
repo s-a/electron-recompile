@@ -24,6 +24,7 @@
   "dependencies": {
     "colors": "^1.1.2",
     "commander": "^2.8.1",
+    "nmp": "^1.0.3",
     "package.js": "^1.1.3",
     "shelljs": "^0.5.1"
   }
