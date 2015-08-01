@@ -25,3 +25,10 @@ $ cd your-project-path;
 $ npm install electron-prebuilt;
 $ electron-recompile;
 ```
+
+## Dependencies
+ - [Node.js](https://nodejs.org/)
+ - [git commands](https://git-scm.com/downloads)
+ - [node-gyp](https://github.com/TooTallNate/node-gyp/)
+ - [Linux bash commands](https://git-scm.com/downloads) also available on windows via git bash.
+ -
