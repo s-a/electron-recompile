@@ -1,6 +1,6 @@
 {
   "name": "electron-recompile",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "description": "re-compile native modules against electron",
   "main": "./lib/index.js",
   "bin": {
