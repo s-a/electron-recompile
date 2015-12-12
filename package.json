@@ -9,7 +9,9 @@
   "preferGlobal": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "bump": "npm version patch && git push && git push --tags && npm publish"
+    "bump": "npm version patch && git push && git push --tags && npm publish",
+    "dev": "node lib/index.js c:/git/require/ --electron=0.34.2",
+    "debug": "iron-node lib/index.js c:/git/require/ --electron=0.34.2"
   },
   "bugs": {
     "url": "https://github.com/s-a/electron-recompile/issues"
